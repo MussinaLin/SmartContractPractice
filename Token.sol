@@ -1,4 +1,4 @@
-pragma solidity ^0.4.2;
+pragma solidity ^0.5.1;
 
 // Abstract contract for the full ERC 20 Token standard
 // https://github.com/ethereum/EIPs/issues/20
@@ -13,12 +13,12 @@ contract Token {
     currently recognised as an implementation of the matching abstract
     function by the compiler.
     */
-    /// total amount of tokens
+    // total amount of tokens
     uint256 public totalSupply;
 
-    /// @param _owner The address from which the balance will be retrieved
-    /// @return The balance
-    function balanceOf(address _owner) public constant returns (uint256 balance);
+    // @param _owner The address from which the balance will be retrieved
+    // @return The balance
+    function balanceOf(address _owner) public view returns (uint256 balance);
 
     /// @notice send `_value` token to `_to` from `msg.sender`
     /// @param _to The address of the recipient
