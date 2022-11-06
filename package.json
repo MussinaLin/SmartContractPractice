@@ -1,0 +1,22 @@
+{
+  "name": "smartcontractpractice",
+  "version": "1.0.0",
+  "description": "This repo is for Mussina Lin's smart contract practice. All the topic could be here, so code in here might not have a specific topic.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MussinaLin/SmartContractPractice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MussinaLin/SmartContractPractice/issues"
+  },
+  "homepage": "https://github.com/MussinaLin/SmartContractPractice#readme",
+  "devDependencies": {
+    "hardhat": "^2.12.2"
+  }
+}
